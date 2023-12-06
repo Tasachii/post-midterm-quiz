@@ -20,7 +20,7 @@ def gen_comb_list(list_set):
 # y = [4, 5]
 # z = [6, 7, 8]
 # u = [9, 10]
-# comb_list = gen_comb_list([x]) 
+# comb_list = gen_comb_list([x])
 # print(comb_list, len(comb_list), [x])
 # comb_list = gen_comb_list([x, y])
 # print(comb_list, len(comb_list), [x, y])
