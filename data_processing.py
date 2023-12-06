@@ -119,7 +119,7 @@ class Table:
 
 
 my_db = DB()
-movie_table = Table('movie', movie)
+movie_table = Table('movie_table', movie)
 my_db.insert(movie_table)
 comedy_table = movie_table.filter(lambda x: x['Genre'] == 'Comedy')
 world_table = comedy_table.aggregate(lambda x: sum(x)/len(x), 'Worldwide Gross')
